@@ -56,7 +56,7 @@ PODS:
     - React-cxxreact (= 0.60.5)
     - React-jsi (= 0.60.5)
   - React-jsinspector (0.60.5)
-  - react-native-nfc-manager (2.0.0-beta.1):
+  - react-native-nfc-manager (2.1.1):
     - React
   - React-RCTActionSheet (0.60.5):
     - React-Core (= 0.60.5)
@@ -107,51 +107,55 @@ DEPENDENCIES:
   - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
+SPEC REPOS:
+  trunk:
+    - boost-for-react-native
+
 EXTERNAL SOURCES:
   DoubleConversion:
-    :podspec: ../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   Folly:
-    :podspec: ../node_modules/react-native/third-party-podspecs/Folly.podspec
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
-    :podspec: ../node_modules/react-native/third-party-podspecs/glog.podspec
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
-    :path: ../node_modules/react-native/
+    :path: "../node_modules/react-native/"
   React-Core:
-    :path: ../node_modules/react-native/React
+    :path: "../node_modules/react-native/React"
   React-cxxreact:
-    :path: ../node_modules/react-native/ReactCommon/cxxreact
+    :path: "../node_modules/react-native/ReactCommon/cxxreact"
   React-DevSupport:
-    :path: ../node_modules/react-native/React
+    :path: "../node_modules/react-native/React"
   React-jsi:
-    :path: ../node_modules/react-native/ReactCommon/jsi
+    :path: "../node_modules/react-native/ReactCommon/jsi"
   React-jsiexecutor:
-    :path: ../node_modules/react-native/ReactCommon/jsiexecutor
+    :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
-    :path: ../node_modules/react-native/ReactCommon/jsinspector
+    :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-nfc-manager:
-    :path: ../node_modules/react-native-nfc-manager
+    :path: "../node_modules/react-native-nfc-manager"
   React-RCTActionSheet:
-    :path: ../node_modules/react-native/Libraries/ActionSheetIOS
+    :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
-    :path: ../node_modules/react-native/Libraries/NativeAnimation
+    :path: "../node_modules/react-native/Libraries/NativeAnimation"
   React-RCTBlob:
-    :path: ../node_modules/react-native/Libraries/Blob
+    :path: "../node_modules/react-native/Libraries/Blob"
   React-RCTImage:
-    :path: ../node_modules/react-native/Libraries/Image
+    :path: "../node_modules/react-native/Libraries/Image"
   React-RCTLinking:
-    :path: ../node_modules/react-native/Libraries/LinkingIOS
+    :path: "../node_modules/react-native/Libraries/LinkingIOS"
   React-RCTNetwork:
-    :path: ../node_modules/react-native/Libraries/Network
+    :path: "../node_modules/react-native/Libraries/Network"
   React-RCTSettings:
-    :path: ../node_modules/react-native/Libraries/Settings
+    :path: "../node_modules/react-native/Libraries/Settings"
   React-RCTText:
-    :path: ../node_modules/react-native/Libraries/Text
+    :path: "../node_modules/react-native/Libraries/Text"
   React-RCTVibration:
-    :path: ../node_modules/react-native/Libraries/Vibration
+    :path: "../node_modules/react-native/Libraries/Vibration"
   React-RCTWebSocket:
-    :path: ../node_modules/react-native/Libraries/WebSocket
+    :path: "../node_modules/react-native/Libraries/WebSocket"
   yoga:
-    :path: ../node_modules/react-native/ReactCommon/yoga
+    :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
@@ -165,7 +169,7 @@ SPEC CHECKSUMS:
   React-jsi: 4d8c9efb6312a9725b18d6fc818ffc103f60fec2
   React-jsiexecutor: 90ad2f9db09513fc763bc757fdc3c4ff8bde2a30
   React-jsinspector: e08662d1bf5b129a3d556eb9ea343a3f40353ae4
-  react-native-nfc-manager: 40daf3b7214ce0151597386d6da46fa57ead2100
+  react-native-nfc-manager: bb6c2603d59e4a9775a708ec8aa5bdfde2c24eae
   React-RCTActionSheet: b0f1ea83f4bf75fb966eae9bfc47b78c8d3efd90
   React-RCTAnimation: 359ba1b5690b1e87cc173558a78e82d35919333e
   React-RCTBlob: 5e2b55f76e9a1c7ae52b826923502ddc3238df24
@@ -180,4 +184,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: d1a7a05085d1d839372240887f8d4252f588d20d
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.8.4
